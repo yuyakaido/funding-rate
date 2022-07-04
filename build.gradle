@@ -1,0 +1,14 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.7.0'
+}
+
+group = 'com.yuyakaido'
+version = '0.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = '1.8'
+}
