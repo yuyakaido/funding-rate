@@ -9,7 +9,7 @@ fun main() {
         val lines = file.readLines()
         val headers = lines.first().replace("\"", "").split(",")
         val fundingRateIndex = headers.indexOf("Funding Rate")
-        val records = lines.subList(1, 200)
+        val records = lines.subList(1, 100)
 
         var sumOfFundingRate = BigDecimal.ZERO
         var minOfFundingRate = BigDecimal.ZERO
